@@ -13,6 +13,7 @@ dependencies = [
     "isaaclab-assets",
     "isaaclab-contrib",
     "isaaclab-experimental",
+    "isaaclab-microduck",
     "isaaclab-newton[all]",
     "isaaclab-ov",
     "isaaclab-ovphysx",
@@ -229,6 +230,7 @@ isaaclab = { path = "source/isaaclab", editable = true }
 "isaaclab-contrib" = { path = "source/isaaclab_contrib", editable = true }
 "isaaclab-experimental" = { path = "source/isaaclab_experimental", editable = true }
 "isaaclab-mimic" = { path = "source/isaaclab_mimic", editable = true }
+"isaaclab-microduck" = { path = "source/isaaclab_microduck", editable = true }
 "isaaclab-newton" = { path = "source/isaaclab_newton", editable = true }
 "isaaclab-ov" = { path = "source/isaaclab_ov", editable = true }
 "isaaclab-ovphysx" = { path = "source/isaaclab_ovphysx", editable = true }

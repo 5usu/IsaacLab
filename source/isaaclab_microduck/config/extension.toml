@@ -1,0 +1,19 @@
+[package]
+version = "0.1.0"
+title = "Isaac Lab MicroDuck"
+description = "MicroDuck robot assets, reinforcement-learning environments, and RSL-RL configurations for Isaac Lab."
+readme = "docs/README.md"
+repository = "https://github.com/5usu/IsaacLab"
+category = "robotics"
+keywords = ["robotics", "reinforcement-learning", "locomotion", "microduck"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[core]
+reloadable = false
+
+[[python.module]]
+name = "isaaclab_microduck"
